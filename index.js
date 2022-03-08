@@ -101,4 +101,5 @@ app.post("/api/v3/app/events", upload.array("files", 10), (req, res, next) => {
       res.send(result);
     }
   );
-});
+})
+;
